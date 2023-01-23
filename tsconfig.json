@@ -1,10 +1,6 @@
 {
   "compilerOptions": {
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -21,9 +17,18 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "pages/index.js",
+    "pages/enter.js",
+    "pages/_app.js",
+    "pages/admin/index.js",
+    "pages/admin/[slug].js",
+    "pages/[username]/index.js",
+    "pages/[username]/[slug].js",
+    "lib/hooks.js",
+    "lib/firebase.js",
+    "components/Loader.js",
+    "components/NavBar.js"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
